@@ -7,9 +7,87 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <section class="header">
+  <section class="header bg-primary text-white text-center py-4">
     <div class="container">
-      <h1>Behöver handla?</h1>
+      <h1>Behöver du handla?</h1>
+    </div>
+  </section>
+
+  <div class="result d-none">
+    <div class="container text-center py-4 ">
+      <p>du behöver handla<span id="percentage"> : 0%</span></p>
+    </div>
+  </div>
+
+  <section class="fragor bg-light">
+    <div class="container py-4">
+
+      <form class="question-form">
+        <p class="h4">Har du ägg?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q1" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q1" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+
+        <p class="h4">Har du mjölk?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q2" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q2" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+
+        <p class="h4">Har du brödd?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q3" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q3" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+
+        <p class="h4">Har du smör?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q4" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q4" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+
+        <p class="h4">Har du juice?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q5" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q5" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+
+        <p class="h4">Har du tomat?</p>
+        <div class="form-check form-check-inline py-3">
+          <input class="form-check-input" type="radio" name="q6" value="ja">
+          <label class="form-check-label" for="inlineRadio1">Ja</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="q6" value="nej">
+          <label class="form-check-label" for="inlineRadio2">Nej</label>
+        </div>
+        
+        <div class="container text-center">
+          <button type="submit" class="btn btn-primary">Skicka</button>
+        </div>
+      </form>
+
     </div>
   </section>
 
