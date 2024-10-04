@@ -18,8 +18,11 @@ input[type=text]:focus {
   max-width: 500px;
 }
 
-todos li{
-  background-color: #cb6363;
+.todos li{
+  background-color: #d87e7e;
+  border: 1px solid #cb6363;
+  color: #fff;
+  margin-block: .2rem;
 }
 
 .delete{
@@ -31,4 +34,8 @@ todos li{
 }
 .icon {
   padding-right: 1rem;
+}
+
+.filtered {
+  display: none !important;
 }
